@@ -1,0 +1,162 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: #e3fef6;
+	font-size: 25px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	min-height: 100vh;
+	margin: 0;
+	display: flex;
+	justify-content: space-around;
+	box-sizing: border-box;
+}
+
+.title {
+	
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	
+}
+
+#navbar{
+	width: 100vw;
+	padding: 4px;
+	background-color: #155d66;
+	text-align: right;
+	position: fixed;
+	z-index: 1;
+	display: flex;
+	justify-content: space-around;
+}
+
+
+
+#pomo-timer {
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+}
+#timer-container{
+	background: #155d66;
+	width: 200px;
+	margin: 0;
+	border-radius: 0.5rem;
+}
+
+#pause, #save {
+	background-color: #003c43;
+	color: white;
+	border: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	padding: 5px 10px;
+	border-radius: 0.5rem;
+	width: 70px;
+	cursor: pointer;
+}
+
+section {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.container, .modal-container{
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 400px;
+}
+
+.modal-container, #tips-container {
+	background-color: #78b0aa;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	margin: 20px;
+	color: white;
+	width: 100%;
+}
+
+.list-container {
+	align-self: flex-start;
+}
+
+#task-input {
+	background: transparent;
+	border: 0;
+	padding: 5px;
+	width: 100%;
+	font-style: italic;
+	text-align: center;
+	color: #155d66;
+}
+
+::placeholder {
+	color: lightgray;
+	opacity: 10;
+	font-size: 20px;
+}
+
+label {
+	font-size: 15px;
+}
+
+#add-task{
+	background-color: #003c43;
+	color: white;
+	border: 0;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	padding: 30px 10px;
+	border-radius: 0.5rem;
+	width: 200px;
+}
+
+#input-area {
+	margin-top: 10px;
+}
+#input-area input {
+    width: 80%;
+    padding: 5px;
+}
+#input-area button {
+    padding: 5px 10px;
+}
+
+p {
+	padding: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: white;
+}
+
+img {
+	margin: 20px;
+}
+
+#chatbox {
+	background: #78b0aa;
+}
+
+#journal {
+	width: 40vw;
+	height: 40vh;
+	margin: 20px;
+}
+
+#joke-container {
+	background-color: #78b0aa;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+	margin: 20px;
+	color: white;
+	width: 100%;
+}
+
